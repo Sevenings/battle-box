@@ -1,0 +1,4 @@
+TODO:
+ O Listar ataques;
+ O Disponibilizar 3 personagens jogáveis;
+ O Menu de boas-vindas;
