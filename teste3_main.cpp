@@ -9,6 +9,7 @@ Ataque* listaAtaques[] = {
     new Soco(),
     new Chute(),
     new Haduken(),
+    new Shuriken(),
     NULL
 };
 

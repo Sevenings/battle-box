@@ -76,5 +76,15 @@ public:
 };
 
 
+class Shuriken : public Ataque {
+public:
+    Shuriken() {
+        nome = "Shuriken";
+    }
+
+    void ataque(Character &atacante, Character &defensor);
+};
+
+
 
 #endif
