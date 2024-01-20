@@ -9,22 +9,22 @@ Character::Character(string nom, int vid, int forc, Ataque** ataqu)
     : nome(nom), vida(vid), forca(forc), ataques(ataqu) 
 { }
 
-string Character::getNome()
+const string Character::getNome()
 {
     return nome;
 }
 
-int Character::getVida()
+const int Character::getVida()
 {
     return vida;
 }
 
-int Character::getForca()
+const int Character::getForca()
 {
     return forca;
 }
 
-void Character::print()
+const void Character::print()
 {
     cout << nome << " " << vida << "/" << forca << endl;
 }
@@ -33,7 +33,7 @@ void Character::recebeDano(int dano) {
     vida -= dano;
 }
 
-bool Character::vivo() {
+const bool Character::vivo() {
     return vida > 0;
 }
 

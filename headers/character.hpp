@@ -22,12 +22,12 @@ public:
 
     Character(string nome, int vida, int forca, Ataque** ataques);
 
-    string getNome();
-    int getVida();
-    int getForca();
-    void print();
+    const string getNome();
+    const int getVida();
+    const int getForca();
+    const void print();
     void recebeDano(int dano);
-    bool vivo();
+    const bool vivo();
     void atacar(int index_ataque, Character &alvo);
 };
 
@@ -84,7 +84,5 @@ public:
 
     void ataque(Character &atacante, Character &defensor);
 };
-
-
 
 #endif
